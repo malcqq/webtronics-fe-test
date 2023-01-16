@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Тестовое задание Webtonics
+
+Cверстать интерактивный одностраничник для обратной связи и интегрировать API
+
+## Требования:
+
+1. Reactjs – для создания интерфейса
+2. Typescript – для типизации
+3. Module.css / scss / sass – для стилизации
+4. React HookForm – для сбора данных
+5. Yup – для валидации
+6. Nextjs – для SSR
+
+Верстка должна быть семантическая, используя компонентный подход. Нельзя использовать UI библиотеки с готовыми компонентами.
+
 ## Getting Started Server
 
 First, run the server:
@@ -15,6 +30,7 @@ The server for interacting with the API will be running on http:localhost:3004
 To get contacts, use a GET request to http:localhost:3004/feedback
 
 To create contact, use a POST request to http:localhost:3004/feedback
+
 ```
   {
     "name": string,

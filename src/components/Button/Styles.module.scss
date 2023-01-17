@@ -9,16 +9,17 @@
   line-height: 120%;
   padding: 1.2em 1.6em;
   border-radius: 0.4em;
+  font-family: var(--inter-font);
   color: var(--btn-default);
   background: var(--btn-bg-gradient);
   border: none;
   cursor: pointer;
 
-  &--lg {
+  &--large {
     max-width: 497px;
   }
 
-  &--md {
+  &--medium {
     max-width: 288px;
   }
 

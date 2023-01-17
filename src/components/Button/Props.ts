@@ -6,6 +6,6 @@ export interface IButtonProps
     HTMLButtonElement
   > {
   children: ReactNode;
-  size: 'lg' | 'md';
+  size: 'L' | 'M';
   appearance?: 'primary' | 'secondary';
 }

@@ -1,7 +1,7 @@
 import React from 'react';
+import cn from 'classnames';
 import { IButtonProps } from './Props';
 import styles from './Styles.module.scss';
-import cn from 'classnames';
 
 export const Button = ({
   appearance = 'primary',
@@ -15,8 +15,8 @@ export const Button = ({
       className={cn(styles.button, className, {
         [styles.primary]: appearance === 'primary',
         [styles.secondary]: appearance === 'secondary',
-        [styles['button--lg']]: size === 'lg',
-        [styles['button--md']]: size === 'md',
+        [styles['button--large']]: size === 'L',
+        [styles['button--medium']]: size === 'M',
       })}
       {...props}
     >

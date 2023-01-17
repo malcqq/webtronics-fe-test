@@ -1,7 +1,16 @@
+/* stylelint-disable custom-property-pattern */
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-family--title);
+  line-height: 120%;
 }
 
 h1,
@@ -9,45 +18,41 @@ h2,
 h3,
 p,
 ul {
-	margin: 0;
+  margin: 0;
 }
 
 html,
 body {
-	overflow-x: hidden;
+  overflow-x: hidden;
 
-	max-width: 100vw;
+  max-width: 100vw;
 
-	font-family: var(--inter-font), sans-serif;
-	font-size: 100%;
+  font-family: var(--font-family--main);
+  font-size: 100%;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 
-	color: inherit;
+  color: inherit;
 }
 
 :root {
-	--max-width: 1225px;
-	--font-mono: "Clash Display", "Inter", sans-serif;
+  --max-width: 1225px;
 
-	/* colors vars */
-	--white: #FFF;
-	--primary: #FFF;
-	--secondary: #A2CBFB;
-	--btn-bg-gradient:
-		linear-gradient(
-			180deg,
-			#1FF2FF 0%,
-			#27F9E5 52.66%,
-			#2FFFCD 100%
-		);
-	--btn-default: #0A1482;
-	--btn-hover: #3B48D0;
-	--btn-active: #FFF;
-
-	/*  --btn-primary-gradient: linear-gradient(
-    #a2cbfb(180deg, #1ff2ff 0%, #27f9e5 52.66%, #2fffcd 100%)
-  ); */
+  /* colors vars */
+  --white: #fff;
+  --primary: #fff;
+  --secondary: #a2cbfb;
+  --btn-bg-gradient: linear-gradient(
+    180deg,
+    #1ff2ff 0%,
+    #27f9e5 52.66%,
+    #2fffcd 100%
+  );
+  --btn-default: #0a1482;
+  --btn-hover: #3b48d0;
+  --btn-active: #fff;
+  --font-family--main: var(--inter-font), sans-serif;
+  --font-family--title: var(--clash-display-font), sans-serif;
 }

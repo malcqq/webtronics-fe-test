@@ -1,0 +1,11 @@
+.paragraph {
+  font-size: 1em;
+  line-height: 140%;
+
+  &--large {
+    font-size: 1em;
+  }
+  &--description {
+    color: var(--secondary);
+  }
+}

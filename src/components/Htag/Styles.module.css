@@ -1,14 +1,14 @@
 .h1 {
-	font-size: 150px;
-	line-height: 120%;
+  font-size: 9.375em;
+  line-height: 120%;
 }
 
 .h2 {
-	font-size: 72px;
-	line-height: 120%;
+  font-size: 4.5em;
+  line-height: 120%;
 }
 
 .h3 {
-	font-size: 32px;
-	line-height: 120%;
+  font-size: 2em;
+  line-height: 120%;
 }
